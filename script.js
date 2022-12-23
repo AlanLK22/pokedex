@@ -5,7 +5,6 @@ const input = document.getElementById('input')
 const imgPokemon = document.getElementById('pokemon')
 const pokemonName = document.getElementById('pokemon-name')
 const pokemonType = document.getElementById('pokemon-type')
-const ulPokemon = document.getElementById('ul-pokemon-name-type')
 
 const númeroMaximoPokémon = 905
 const apenasNúmeros = typeof input.value === 'string'
