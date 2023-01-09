@@ -1,5 +1,11 @@
-body{
+html, body{
     background-color: rgb(45, 45, 109);    
+    
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      
+      
 }
 
 #container{
@@ -120,4 +126,134 @@ height: 120px;
     justify-content: center;
     color: white;
     font-style: italic;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    #enviar{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: 3px solid red;
+        border-radius: 15px;
+        padding: 5px 15px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        margin: 0 15px;
+    
+    }
+    #enviar:hover{
+        background-color: red;
+        color: white;
+    }
+    
+    
+    #limpar{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: 3px solid red;
+        border-radius: 15px;
+        padding: 5px 15px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+       
+    }
+    #limpar:hover{
+        background-color: red;
+        color: white;
+    }
+    
+    #input{
+        background-color: whitesmoke;
+        border: 3px solid red;
+        border-radius: 15px;
+        padding: 5px 15px;
+        transition-duration: 0.5s;
+        outline: none;
+        margin-left: 5px;
+        
+        
+    }
+    #input:hover{
+        border-color: white;
+    }
+    
+    div{
+        width: 25%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #pokemon{
+        list-style: none;
+        font-size: 12px;
+        font-family:fantasy;
+        color: black;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 180px;
+        justify-content: center;
+        overflow: hidden;
+       margin-right: 30px;
+        
+    }
+    
+    
+    #ul-pokemon{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    
+    
+    #img-pokémon{
+    
+    height: 120px;
+        
+    }
+    
+    #pokemon-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        font-family: fantasy;
+        color: white;
+    }
+    
+    #pokemon-type{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        font-family: fantasy;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    
+    #título{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-style: italic;
+    }
+    
+
+
 }
