@@ -34,7 +34,7 @@ btnEnviar.addEventListener('click', event => {
 
                 if (input.value) {
                     somPokemon(id)
-                    imgPokemon.innerHTML = `<img id="img-pokémon" src= "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif"></img>`
+                    imgPokemon.innerHTML = `<img id="img-pokémon" src= "./assets/spritesPokemon/${name}.gif"></img>`
                     pokemonName.innerHTML = `${name}`
                     pokemonType.innerHTML = `type: ${typePokemon}`
                     
