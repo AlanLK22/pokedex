@@ -6,7 +6,7 @@ const imgPokemon = document.getElementById('pokemon')
 const pokemonName = document.getElementById('pokemon-name')
 const pokemonType = document.getElementById('pokemon-type')
 
-const númeroMaximoPokémon = 905
+const númeroMaximoPokémon = 1010
 const apenasNúmeros = typeof input.value === 'string'
 
 
@@ -44,7 +44,7 @@ btnEnviar.addEventListener('click', event => {
                 }
             }).catch(err => {
                 if (input.value > númeroMaximoPokémon) {
-                    alert('905 é o número maximo de pokémon')
+                    alert('1010 é o número maximo de pokémon')
 
                 } else if (apenasNúmeros) {
                     alert('digite APENAS NÚMEROS')
